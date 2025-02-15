@@ -1,3 +1,57 @@
+
+# Hospital Finder
+
+Hospital Finder is a web application designed to help users locate nearby hospitals efficiently. By leveraging geolocation services and mapping APIs, the application provides real-time information about hospitals in proximity to the user's current location.
+
+## Features
+
+-   **Real-Time Location Detection**: Automatically identifies the user's current position to suggest nearby hospitals.
+-   **Hospital Search**: Allows users to search for hospitals based on specific criteria such as name, specialty, or location.
+-   **Detailed Hospital Information**: Provides comprehensive details about each hospital, including address, contact information, and available specialties.
+
+## Deployed Application
+
+The Hospital Finder application is currently deployed and accessible at:
+
+[![Hospital Finder Live Application](https://img.shields.io/badge/Live-Demo-brightgreen)](https://srzaidi.github.io/hospital-finder/)
+
+## Technologies and APIs Used
+
+-   **Frontend**: Developed using React.js, providing a responsive and dynamic user interface.
+-   **Geolocation API**: Utilized to detect the user's current location.
+-   **OpenStreet API**: Integrated for displaying maps and routing functionalities.
+
+## Installation and Setup
+
+To run the Hospital Finder application locally:
+
+```sh
+# Clone the Repository
+git clone https://github.com/srzaidi/hospital-finder.git
+
+# Navigate to the Project Directory
+cd hospital-finder
+
+# Install Dependencies
+npm install
+
+# Start the Application
+npm start
+
+```
+
+The application will run in development mode and can be accessed at [http://localhost:3000](http://localhost:3000/).
+
+
+## License
+
+This project is licensed under the MIT License. For more details, refer to the [LICENSE](https://github.com/srzaidi/hospital-finder/blob/main/LICENSE) file in the repository.
+
+----------
+
+> **Note**: This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).# Hospital Finder
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
