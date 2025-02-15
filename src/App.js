@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { GoogleOAuthProvider } from '@react-oauth/google';
+import { GoogleOAuthProvider, googleLogout } from '@react-oauth/google';
 import Login from './components/Login';
 import Map from './components/Map';
 import './App.css';
@@ -17,6 +17,11 @@ function App() {
 
   const handleLoginError = () => {
     console.log('Login Failed');
+  };
+
+  const handleLogoutSuccess = () => {
+    googleLogout(); // This logs the user out from Google.
+    setUser(null); // This will clear the user state and log the user out.
   };
 
   const fetchLocation = () => {
@@ -68,6 +73,7 @@ function App() {
         ) : (
           <>
             <p className="welcome-message">Welcome! Here are the hospitals near you:</p>
+            <button className="logout-button" onClick={handleLogoutSuccess}>Logout</button>
             <div className="map-container">
               <Map location={location} hospitals={hospitals} />
               <div className="hospital-panel">
