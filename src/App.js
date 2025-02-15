@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { GoogleOAuthProvider } from '@react-oauth/google';
 import Login from './components/Login';
-import Map from './components/Mgiap';
+import Map from './components/Map';
 import './App.css';
 
 function App() {
