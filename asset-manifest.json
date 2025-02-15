@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hospital-finder/static/css/main.2400e626.css",
+    "main.js": "/hospital-finder/static/js/main.eee9d943.js",
+    "index.html": "/hospital-finder/index.html",
+    "main.2400e626.css.map": "/hospital-finder/static/css/main.2400e626.css.map",
+    "main.eee9d943.js.map": "/hospital-finder/static/js/main.eee9d943.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2400e626.css",
+    "static/js/main.eee9d943.js"
+  ]
+}
